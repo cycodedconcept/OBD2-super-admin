@@ -1,0 +1,83 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 80px;
+}
+.check {
+    width: 40px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+.form .inputGroup {
+    max-height: 80px;
+    overflow: hidden;
+}
+.form .inputGroup label {
+    width: 100%;
+}
+.form .inputGroup label span {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+.form .inputGroup .password-container {
+    position: relative;
+}
+.form .inputGroup .password-container .hide {
+    position: absolute;
+    top: 28%;
+    right: 4%;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #4d5657;
+    cursor: pointer;
+}
+.form .inputGroup ::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+}
+.form .inputGroup .form-control {
+    border: 1px solid #020062;
+    padding: 10px 15px;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+}
+.form .inputGroup .form-control:focus {
+    border: 2px solid #1410b4;
+    box-shadow: 0 2px 3px 4px rgba(12, 10, 104, 0.3);
+}
+a:-webkit-any-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #020062;
+}
+.btn {
+    width: 100%;
+    background-color: #1410b4;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+.btn a {
+    color: white;
+}
+.form #remPass {
+    display: flex;
+    justify-content: space-between;
+}
+.form #createAcc {
+    width: 350px;
+    display: flex;
+}
