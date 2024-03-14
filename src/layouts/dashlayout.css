@@ -1,0 +1,62 @@
+:root {
+    --primary: #1410b4;
+    --text: #4d5657;
+}
+
+.dashlay {
+    display: flex;
+}
+.sidebar {
+    height: 100vh;
+    overflow-y: hidden;
+    background-color: pink;
+    flex-basis: content;
+    color: white;
+    transition: flex-basis ease 2s;
+}
+.sidebar:hover {
+    flex-basis: calc(100%/6);
+}
+
+.sidebar:hover .link h4, .sidebar:hover .link h3 {
+    display: inline-block;
+}
+
+main {
+    flex-grow: 1;
+    background-color: aquamarine;
+    margin-right: 70px;
+}
+.link {
+    display: flex;
+    align-items: center;
+    margin: 7px 15px 7px 10px;
+    padding: 7px 10px 7px 15px;
+    color: white;
+}
+
+.link h4, .link h3 {
+    display: none;
+    padding-left: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    transition: all ease 2s;
+}
+.link h3 {
+    font-size: 20px;
+}
+.link span {
+    text-transform: uppercase;
+}
+.links {
+    height: 78vh;
+}
+
+img {
+    width: 30px;
+}
+.dash {
+    width: 90%;
+    height: 1px;
+    background-color: #1410b4;
+}

@@ -4,6 +4,7 @@
   scroll-behavior: smooth;
   --primary: #1410b4;
   --text: #4d5657;
+  font-family: "Quicksand", sans-serif;
 }
 
 *{
@@ -11,6 +12,4 @@
   padding: 0
 }
 
-body {
-  font-family: "Quicksand", sans-serif;
-}
+

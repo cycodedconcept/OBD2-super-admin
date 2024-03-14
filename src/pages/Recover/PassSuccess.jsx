@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container'
 import { Row, Col } from "react-bootstrap";
 import { Link } from 'react-router-dom';
-import '../loginForm.css'
+import '../css/loginForm.css'
 
 const PassSuccess = () => {
     return ( 

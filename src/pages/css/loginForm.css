@@ -1,7 +1,13 @@
+:root {
+    --primary: #1410b4;
+    --text: #4d5657;
+}
+
 .login {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--text);
 }
 .logo {
     width: 80px;
@@ -39,7 +45,7 @@ h2 {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    color: #4d5657;
+    color: var(--text);
     cursor: pointer;
 }
 .form .inputGroup ::placeholder {
@@ -53,7 +59,7 @@ h2 {
     position: relative;
 }
 .form .inputGroup .form-control:focus {
-    border: 2px solid #1410b4;
+    border: 2px solid var(--primary);
     box-shadow: 0 2px 3px 4px rgba(12, 10, 104, 0.3);
 }
 a:-webkit-any-link {
@@ -65,13 +71,20 @@ a:-webkit-any-link {
 }
 .btn {
     width: 100%;
-    background-color: #1410b4;
+    background-color: var(--primary);
     color: white;
     font-weight: 700;
     font-size: 16px;
+    transition: all ease 1s;
 }
 .btn a {
     color: white;
+}
+.btn:hover {
+    border: 2px solid var(--primary);
+}
+.btn:hover a {
+    color: var(--primary);
 }
 .form #remPass {
     display: flex;

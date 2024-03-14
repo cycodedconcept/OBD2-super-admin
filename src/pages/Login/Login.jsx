@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container'
 import { Row, Col } from "react-bootstrap";
-import '../loginForm.css'
+import '../css/loginForm.css'
 
 const Login = () => {
 
@@ -63,15 +63,9 @@ const Login = () => {
                             <input type="checkbox" className="me-1"/>
                             <label htmlFor="remPass">Remember password</label>
                         </div>
-                        <div><Link to="/recover-password">Forgot Password</Link></div>
+                        <div><Link to="recover-password">Forgot Password</Link></div>
                     </div>
                     <button type="submit" className="btn mt-4 py-2" id="btn">Login</button>
-                    <div className=" mt-5 mx-auto" id="createAcc">
-                        <div>
-                            <p className="me-2">Don't have an account?</p>
-                        </div>
-                        <div><a href="abc.html" id="signupBtn">Create an account</a></div>
-                    </div>
                 </form> 
             </Col>
         </Row>
