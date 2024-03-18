@@ -16,7 +16,7 @@ const PassSuccess = () => {
                 </div>
                 <h2 className="my-4 text-center" id="title">Successfully changed</h2>
                 <p className="text-center mb-5">Your password has been sucessfully changed you can now proceed to login.</p>
-                <button type="submit" className="btn mt-4 py-2" id="btn">
+                <button type="submit" className="btn mt-4 py-3" id="btn">
                     <Link to="/">Back to log-in</Link>
                 </button>
             </Col>

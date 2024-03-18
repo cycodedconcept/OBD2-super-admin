@@ -67,7 +67,7 @@ const ResetPass = () => {
                         </div>
                     </label>
                 </div>
-                    <button type="submit" className="btn mt-4 py-2" id="btn">Update</button>
+                    <button type="submit" className="btn mt-4 py-3" id="btn">Update</button>
                 </form> 
             </Col>
         </Row>

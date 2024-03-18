@@ -60,7 +60,7 @@ h2 {
 }
 .form .inputGroup .form-control:focus {
     border: 2px solid var(--primary);
-    box-shadow: 0 2px 3px 4px rgba(12, 10, 104, 0.3);
+    box-shadow: 0 2px 3px 4px rgba(12, 10, 104, 0.2);
 }
 a:-webkit-any-link {
     text-decoration: none;

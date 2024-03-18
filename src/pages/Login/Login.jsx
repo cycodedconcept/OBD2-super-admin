@@ -65,7 +65,7 @@ const Login = () => {
                         </div>
                         <div><Link to="recover-password">Forgot Password</Link></div>
                     </div>
-                    <button type="submit" className="btn mt-4 py-2" id="btn">Login</button>
+                    <button type="submit" className="btn mt-4 py-3" id="btn">Login</button>
                 </form> 
             </Col>
         </Row>

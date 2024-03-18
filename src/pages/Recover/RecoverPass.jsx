@@ -32,7 +32,7 @@ const RecoverPass = () => {
                             />
                         </label>
                     </div>
-                    <button type="submit" className="btn mt-4 py-2" id="btn">Continue</button>
+                    <button type="submit" className="btn mt-4 py-3" id="btn">Continue</button>
                 </form> 
             </Col>
         </Row>
