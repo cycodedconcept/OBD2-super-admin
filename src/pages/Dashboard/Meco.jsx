@@ -1,6 +1,8 @@
+import DashHeader from "../../components/Dashheader";
+
 const Meco = () => {
     return ( 
-        <h1>Meco & Towler</h1>
+        <DashHeader page={'Meco & Towler'} para={'OBD Meco & Towler'} />
     );
 }
  

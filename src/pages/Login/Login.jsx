@@ -56,7 +56,7 @@ const Login = () => {
                                 {showPassword}
                             </p>
                             </div>
-                            </label>
+                        </label>
                     </div>
                     <div className="mt-3" id="remPass">
                         <div>

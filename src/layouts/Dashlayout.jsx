@@ -4,14 +4,14 @@ import './dashlayout.css'
 
 const Dashlayout = () => {
     return ( 
-        <div className="dashlay d-lg-flex px-2 px-lg-0">
+        <div className="dashlay d-lg-flex">
             <aside className="sidebar">
                 <Navbar expand="lg">
-                    <div className="link d-lg-none">
+                    <div className="logo d-flex d-lg-none my-auto ms-3">
                         <img src="../asset/Frame 20614.png" alt="logo" />
                         <h3><span>obd</span> manger</h3>
                     </div>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" className="me-3"/>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <nav>
                             <div className="logo d-none d-lg-flex justify-content-between ms-3 w-100">
@@ -20,10 +20,10 @@ const Dashlayout = () => {
                             </div>
                             <div className="d-flex flex-column justify-content-between links">
                                 <div>
-                                    <div className="link">
+                                    <NavLink to="dashboard" className="link">
                                         <img src="../asset/icons/pie-chart.png" alt="icon" />
                                         <p>dashboard</p>
-                                    </div>
+                                    </NavLink>
                                     <NavLink to="users" className="link">
                                         <img src="../asset/icons/person_outline.png" alt="icon" />
                                         <p>users</p>
@@ -64,7 +64,7 @@ const Dashlayout = () => {
                     </Navbar.Collapse>
                 </Navbar>
             </aside>
-            <main>
+            <main className="px-2 px-lg-0">
                 <Outlet />
             </main>
         </div>

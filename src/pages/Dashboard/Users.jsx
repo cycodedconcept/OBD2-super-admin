@@ -1,6 +1,8 @@
+import DashHeader from "../../components/Dashheader";
+
 const Users = () => {
     return ( 
-        <h1>Users</h1>
+        <DashHeader page={'Users'} para={'OBD users'} />
     );
 }
  

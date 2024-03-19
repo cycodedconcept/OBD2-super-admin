@@ -1,6 +1,8 @@
+import DashHeader from "../../components/Dashheader";
+
 const Devices = () => {
     return ( 
-        <h1>Devices</h1>
+        <DashHeader page={'OBD Devices'} para={'OBD Devices'} />
     );
 }
  

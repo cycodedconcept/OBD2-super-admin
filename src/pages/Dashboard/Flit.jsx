@@ -1,6 +1,8 @@
+import DashHeader from "../../components/Dashheader";
+
 const flit = () => {
     return ( 
-        <h1>Flit Managers</h1>
+        <DashHeader page={'Flit Managers'} para={'OBD Flit Managers'} />
     );
 }
 
